@@ -53,3 +53,11 @@ JSX Syntax
 - JSX is a powerful tool for incorporating dynamic content into your apps. It allows you to reference variables with variable names, like "robot" for a robot, "cowboy" for a cowboy, and "moon" for a friendly moon.
 - These values are displayed in list items using curly braces.
 - JSX expressions with curly braces can be incorporated with functions like "toUpperCase()" or "name.length".
+--------------------------------------------
+
+# React Components
+
+React components
+- Build react components
+     + The text explains the process of creating elements and crafting a component, a small user interface piece in an application, which is a JavaScript function that executes JSX.
+     + 
