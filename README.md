@@ -60,5 +60,8 @@ JSX Syntax
 React components
 - Build react components
      + The text explains the process of creating elements and crafting a component, a small user interface piece in an application, which is a JavaScript function that executes JSX.
-     + ![Screenshot 2024-04-17 091708](https://github.com/SauravSewparsad/React.js-notes/assets/101722970/1229221b-7001-4402-ad67-18e2eda8ae07)
+     +
+       ![Screenshot 2024-04-17 091708](https://github.com/SauravSewparsad/React.js-notes/assets/101722970/1229221b-7001-4402-ad67-18e2eda8ae07)
+     + Just like before, we render it, and boom! "We serve the most delicious food around" proudly takes its place on our page. Now, here is a little trick. You might be tempted to slam the Header and Main together side by side. Hold your horses! React insists on a single component, so toss them into a div. Voila! Problem solved.
+     + 
 
