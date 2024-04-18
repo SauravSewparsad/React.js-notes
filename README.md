@@ -156,3 +156,71 @@ Building a Custom Hook
 Choosing a Form Library
 - Formik and React Hook Form are excellent form libraries for comprehensive management and advanced TypeScript support, respectively.
 - Usehooks.com offers resources for creating various hooks, streamlining form-related tasks and allowing users to choose tools best suited to their project needs.
+------------------------------------------------------
+
+# Asynchronous React
+
+Fetching data with hooks
+- To use React to retrieve live data from the GitHub API, use the useState and useEffect hooks.
+- Create a container for data, initialize state with 'null', and use useEffect to fetch data for a user.
+- Handle response with '.JSON' method. Display data in pre-formatted tag.
+
+Display data from an API
+- Create a 'GithubUser' component with H1 name, location, and image, using React's property passing mechanism for flexible data displays.
+
+Handling Loading States
+- Use useState to manage loading states for external API calls, setting them with updating functions.
+- Adjust component rendering logic based on these states, showing loading, success, and error messages accordingly.
+
+Fetching data with GraphQL
+- Adapt data fetching capabilities to GraphQL APIs by specifying endpoints and queries, ensuring correct data structure, and adjusting code for nested data structures.
+
+Working with render Props
+- Create a 'List' function with data, renderItem and renderEmpty functions, and conditionally render either'renderEmpty' or an unordered list.
+- This pattern ensures dynamic content rendering based on provided data, allowing for dynamic content creation in your app.
+-------------------------------------------
+
+# React Routers
+
+Installing react router v6
+- React Router is a popular solution for enabling seamless transitions between pages in single-page applications.
+- To use it, install version six in your project folder, tweak your App component, and run 'npm start'.
+- Create components like Home, About, and Contact to mimic a simple website structure.
+- Configure the router for slick navigation in the next section.
+
+Configure the router
+- Use useState to manage loading states for external API calls, setting them with updating functions.
+- Adjust component rendering logic based on these states, showing loading, success, and error messages accordingly.\
+
+Incorporating te Link Componant
+- The 'Link' component from React Router can be integrated into the Home component to create links to other pages, enhancing user-friendly navigation.
+- Importing this component into the Home component ensures seamless access to desired pages.
+
+Nesting links with React Router v6
+- To add a child page to the About component, create 'Our History' and nest a new Route inside the About Route for '/history'.
+- Import the History component into your app file and place 'Outlet' in App.js. Nested routes structure your app effectively, but plan your route configuration first.
+--------------------------------------------------------
+
+# React Development
+
+Running test with Create  React app
+- Create React App offers 'npm test' for executing all tests in the app, allowing for identification of failed tests and potential code issues, and will discuss writing and linking tests to app functions.
+
+Testing functions with Jest
+- To test small functions using Jest, create 'functions.js' for code and 'functions.test.js' for tests.
+- Jest is configured in Create React App, allowing for easy testing of functions like 'timesTwo', ensuring robust code.
+
+Using react testing library
+- The React Testing Library is a useful tool in Create React App, automating the testing process by checking if a component contains the expected content, simplifying the testing workflow.
+
+Testing Events with React Testing Library
+- We'll create a 'Checkbox' component and test file using React's 'useReducer' to simulate events, catch errors, and identify potential issues in our code.
+
+Deploying to Netlify
+- Netlify simplifies the deployment of our React app by generating a build folder, deploying the project, and enabling easy customization.
+- Its user-friendly interface allows for setting up a custom domain or enabling HTTPS support, making the process quick and enjoyable.
+--------------------------------------------------
+
+# Module Summary
+
+This course provides a solid foundation for starting React projects. To advance, utilize resources like React documentation and Community for meetups, courses, and conferences. Explore building native applications using React Native and GraphQL for data loading. Thank you for participating and anticipate innovative projects using React.
